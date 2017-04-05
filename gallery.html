@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/js/jquery.fb.albumbrowser.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.fb.albumbrowser.css" />
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -89,13 +89,11 @@
     $(document).ready(function () {
         $(".fb-album-container").FacebookAlbumBrowser({
             account: "193547321001434",
-			accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
-			skipAlbums: ["Profile Pictures"],
-            showAccountInfo: true,
-            showImageCount: true,
-            showImageText: true,
-            lightbox: true,
-            photosCheckbox: false
+	    accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
+	    skipAlbums: ["Profile Pictures"],
+            photosCheckbox: false,
+	    pluginImagesPath: "../assets/css"
+		
         });
     });
 </script>
