@@ -84,12 +84,18 @@
     <script src="../../assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  
+
 <script type="text/javascript">
     $(document).ready(function () {
         $(".fb-album-container").FacebookAlbumBrowser({
-            account: "natgeo",
-            accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4"
+            account: "193547321001434",
+			accessToken: "775908159169504|cYEIsh0rs25OQQC8Ex2hXyCOut4",
+			skipAlbums: ["Profile Pictures"],
+            showAccountInfo: true,
+            showImageCount: true,
+            showImageText: true,
+            lightbox: true,
+            photosCheckbox: false
         });
     });
 </script>
