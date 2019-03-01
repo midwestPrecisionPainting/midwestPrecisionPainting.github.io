@@ -110,9 +110,10 @@ body {
   letter-spacing: -1px;
 }
 
-.social {
+.social, .bio {
   margin-top: 60px;
 }
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
